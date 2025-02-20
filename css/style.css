@@ -1,0 +1,109 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rammetto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", serif;
+}
+
+/* Layout Cabeçalho */
+header {
+    background-color: #2f0042;
+}
+
+nav {
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: rgba(255, 255, 255, 0.887);
+}
+
+
+nav a:hover {
+    border-bottom: 0.5px solid #fadb79;
+    font-size: 1.05rem;
+    color: #fadb79;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Rammetto One", serif;
+    color: rgba(255, 255, 255, 0.887);
+}
+
+/* Layout seção capa */
+
+.capa {
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+    background-color: #d075f8;
+}
+
+.capa img {
+    padding-top: 3rem;
+    width: 40rem;
+}
+
+/* Layout seção apresentação */
+
+.apresentacao {
+    background-color: #fadb79;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao img {
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.texto {
+    padding: 2rem;
+    color: #210032;    
+    width: 50%;
+}
+
+.texto p {
+    padding: 1rem;
+}
+
+/* Layout rodapé */
+
+footer {
+    padding: 2rem;
+    background-color: #4a0062;  
+    color: rgba(255, 255, 255, 0.887);
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.redes h5 {
+    border-left: 2px solid rgba(255, 255, 255, 0.887);  
+    padding-left: 0.5rem;
+}
+
+.redes i {
+    padding: 0.8rem;
+}
+
+.redes i:hover {
+    cursor: pointer;
+}
