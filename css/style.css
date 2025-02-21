@@ -26,6 +26,7 @@ header {
 nav {
     padding: 1rem;
     text-align: center;
+    position: sticky;
 }
 
 nav a {
