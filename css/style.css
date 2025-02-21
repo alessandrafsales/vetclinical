@@ -17,12 +17,19 @@ header {
     background-color: #2f0042;
 }
 
+.selecionado {
+    border-bottom: 0.5px solid #fadb79;
+    font-size: 1.05rem;
+    color: #fadb79;
+}
+
 nav {
     padding: 1rem;
     text-align: center;
 }
 
 nav a {
+    margin-right: 2rem;
     text-decoration: none;
     padding: 0.5rem;
     color: rgba(255, 255, 255, 0.887);
