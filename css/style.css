@@ -9,18 +9,20 @@
 }
 
 body {
+    background-color: #d075f8;
     font-family: "Lato", serif;
 }
 
 /* Layout Cabeçalho */
 header {
+    margin-top: 0.5rem;
     background-color: #2f0042;
 }
 
 .selecionado {
-    border-bottom: 0.5px solid #fadb79;
+    border-bottom: 0.5px solid #f5f4c4;
     font-size: 1.05rem;
-    color: #fadb79;
+    color: #f5f4c4;
 }
 
 nav {
@@ -37,9 +39,9 @@ nav a {
 
 
 nav a:hover {
-    border-bottom: 0.5px solid #fadb79;
+    border-bottom: 0.5px solid #f5f4c4;
     font-size: 1.05rem;
-    color: #fadb79;
+    color: #f5f4c4;
 }
 
 h1 {
@@ -66,7 +68,7 @@ h1 {
 /* Layout seção apresentação */
 
 .apresentacao {
-    background-color: #fadb79;
+    background-color: #f5f4c4;
     display: flex;
     align-items: center;
 }
@@ -106,17 +108,16 @@ h1 {
     align-items: center;
     justify-content: space-around;
     font-size: 17px;
-    border-bottom: 0.5px solid #2f0042;
 }
 
 .servico img {
-    margin: 10px;
+    margin: 2px;
     width: 16rem;
-    height: 14rem;
+    height: 12rem;
 }
 
 .servico:hover {
-    background-color: #eedc4b;
+    background-color: #fafae2;
 }
 
 /* Layout rodapé */
