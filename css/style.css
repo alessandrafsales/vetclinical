@@ -1,5 +1,4 @@
 /* Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Rammetto+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rammetto+One&display=swap');
 
 * {
@@ -13,13 +12,19 @@ body {
     font-family: "Lato", serif;
 }
 
+/* Body com cor diferente */
+
+.fundo-amarelo {
+    background-color: #fafae2;
+}
+
 /* Layout Cabeçalho */
 header {
     margin-top: 0.5rem;
     background-color: #2f0042;
 }
 
-.selecionado {
+.selecionado { /* Seleção do menu */
     border-bottom: 0.5px solid #f5f4c4;
     font-size: 1.05rem;
     color: #f5f4c4;
@@ -119,6 +124,63 @@ h1 {
 .servico:hover {
     background-color: #fafae2;
 }
+
+/* Página Contato */
+
+.contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fafae2;
+}
+
+.contato img {
+    width: 32rem;
+}
+
+.formulario {
+    background-color: #4a0062;  
+    margin: 1rem;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.formulario h2 {
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+input, textarea {
+    margin: 1rem;
+    padding: 0.8rem;
+    width: 90%;
+    border-radius: 5px;
+    font-family: "Lato", serif;
+    outline: none;
+}
+
+button {
+    padding: 1rem;
+    width: 90%;
+    border-radius: 5px;
+    font-family: "Lato", serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #4a0062;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f5f4c4;
+    font-size: 15px;
+}
+
 
 /* Layout rodapé */
 
