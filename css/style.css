@@ -47,6 +47,7 @@ nav a:hover {
     border-bottom: 0.5px solid #f5f4c4;
     font-size: 1.05rem;
     color: #f5f4c4;
+    cursor: pointer;
 }
 
 h1 {
