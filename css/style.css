@@ -181,6 +181,41 @@ button:hover {
     font-size: 15px;
 }
 
+/* Página vetSPA */
+
+.setas {
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    overflow: auto;
+}
+
+details {
+    text-align: center;
+    margin: 2rem;
+}
+
+details ul {
+    text-align: right;
+}
+
+details li{
+    margin: 1rem;
+    list-style: none;
+}
+
+.left {
+    text-align: left;
+}
+
+summary {
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 
 /* Layout rodapé */
 
