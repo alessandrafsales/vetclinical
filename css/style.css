@@ -76,6 +76,7 @@ h1 {
     background-color: #f5f4c4;
     display: flex;
     align-items: center;
+    padding: 1rem;
 }
 
 .apresentacao img {
@@ -245,3 +246,28 @@ footer {
 .redes i:hover {
     cursor: pointer;
 }
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (max-width: 920px) {
+    nav {
+        padding: 0.7rem;
+    }
+    .capa {
+        flex-direction: column;
+    }
+    .capa img {
+        width: 20rem;
+    }
+    .texto {
+        width: 100%;
+    }
+    .apresentacao img, .contato img {
+        display: none;
+    }
+    .formulario {
+        width: 100%;
+    }
+    summary {
+        font-size: 15px;
+    }
+} 
