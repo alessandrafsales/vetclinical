@@ -185,11 +185,10 @@ button:hover {
 /* Página vetSPA */
 
 .setas {
-    height: 35rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin: 3rem;
-    overflow: auto;
 }
 
 details {
